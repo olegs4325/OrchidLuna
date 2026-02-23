@@ -19,15 +19,27 @@
 	<button class="yunli" onclick="playStream('os3', this)">Bruxelles/Live26</button>
 	<button class="yunli" onclick="playStream('os4', this)">NocStream-DMZ-01-DRM [Safari Only]</button>
 	<button class="yunli" onclick="playStream('os5', this)">Event05</button>
+	<button class="yunli" onclick="playStream('os6', this)">Event04</button>
+	<button class="yunli" onclick="playStream('os7', this)">Charleroi/Live5</button>
+	<button class="yunli" onclick="playStream('os8', this)">Libramont/Live26</button>
+	<button class="yunli" onclick="playStream('os9', this)">BrabantWallon/Live5</button>
+	<button class="yunli" onclick="playStream('os10', this)">Liege/Live8</button>
+	<button class="yunli" onclick="playStream('os11', this)">Namur/Live26</button>
 </div>
 <script>
 var dahlia = document.getElementById("lily");
 const streams = {
 	os1: 'https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L5/3264727f/d0a3cb71.isml/.m3u8',
-	os2: 'https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L8/0397124b/40ff4c7a.isml/.m3u8',
-	os3: 'https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/04017538/58ee094f.isml/.m3u8',
+	os2: 'https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L8/0397124b/dda450c4.isml/.m3u8',
+	os3: 'https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/04017538/39bebe7c.isml/.m3u8',
 	os4: 'https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/2731ce3a/96b2ceb2.isml/.m3u8',
-	os5: 'https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/16307c7e/b53419ac.isml/.m3u8'
+	os5: 'https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/16307c7e/b53419ac.isml/.m3u8',
+	os6: 'https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L3/027cd674/d681ffe9.isml/.m3u8',
+	os7: 'https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L5/6b00c5a4/b3dfeb27.isml/.m3u8',
+	os8: 'https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/39613919/d6a60381.isml/.m3u8',
+	os9: 'https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L5/ff6774bb/6dd2b591.isml/.m3u8',
+	os10: 'https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L8/e3c7a705/4e8bbbac.isml/.m3u8',
+	os11: 'https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/36342d5d/cc77cccf.isml/.m3u8',
 };
 let rose;
 function playStream(key, buttonElement) {
